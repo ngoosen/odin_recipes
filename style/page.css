@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f8d9a0;
+}
+
+.title {
+  position: relative;
+  top: 0;
+
+  width: 100%;
+  height: 100vh;
+
+  margin: 0;
+
+  background-color: #FFFFFF;
+}
+
+.title h1 {
+  position: absolute;
+  top: 45%;
+  z-index: 1;
+
+  width: 100%;
+
+  padding: 20px 0;
+
+  background-color: rgba(255, 255, 255, 0.5);
+
+  font-size: 40px;
+  text-align: center;
+}
+
+.title img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+  object-position: 50%;
+
+  opacity: .7;
+}
+
+.main {
+  margin: 20px 300px;
+  padding: 20px 30px;
+
+  border-radius: 10px;
+  background-color: #FFFFFF;
+}
+
+.main h2, .main h3 {
+  font-size: 30px;
+  text-align: center;
+  color: #cc9c44;
+}
+
+.main h3 {
+  font-size: 20px;
+}
+
+.main p {
+  margin: 30px 10px;
+}
+
+.main ul {
+  margin-bottom: 50px;
+  padding: 0;
+}
+
+.main ul {
+  list-style: none;
+}
+
+.main ul li {
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.main ol li {
+  font-size: 18px;
+  margin: 20px;
+}
+
+.ingredients {
+  width: fit-content;
+
+  margin: 0 auto;
+  padding: 0 200px;
+
+  border: 5px solid #9daed1;
+  border-radius: 10px;
+  background-color: #d9e4fa;
+}
+
+.ingredients h2, .ingredients h3 {
+  color: #6b8cce;
+}
